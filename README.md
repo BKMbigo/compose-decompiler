@@ -3,6 +3,9 @@
 Ever wondered what happens to your code when the Compose Compiler gets its hands on it? This tool is here to help you
 see the changes made by the Compose Compiler, giving you a peek into the transformed code.
 
+[Screencast from 2024-02-17 21-04-11.webm](https://github.com/BKMbigo/compose-decompiler/assets/102836149/35e82547-8950-4add-ab46-cca788a5cc8c)
+
+
 Just keep in mind that the code you'll see isn't Kotlin/Java or JVM bytecode.
 
 ## Size
