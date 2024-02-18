@@ -34,11 +34,6 @@ dependencies {
     implementation(libs.fifesoft.rsyntaxtextarea)
     implementation(libs.fifesoft.rstaui)
 
-//    implementation(libs.mpfilepicker) {
-//        // WHY DOES THIS LIBRARY EXPORT ITS DEPENDENCIES!!!!!!!!
-//        exclude("org.jetbrains.compose.material")
-//    }
-
     val lwjglVersion = libs.versions.lwjgl.get()
 
     listOf("lwjgl", "lwjgl-tinyfd").forEach { lwjglDep ->
@@ -67,6 +62,8 @@ compose.desktop {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "Compose Decompiler"
             packageVersion = "1.0.0"
+
+            includeAllModules = true
         }
     }
 }
